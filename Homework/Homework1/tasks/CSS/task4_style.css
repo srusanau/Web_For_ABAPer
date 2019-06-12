@@ -1,0 +1,132 @@
+.page {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+@media screen and (max-width: 414px) {
+    .green {
+        background-color: green;
+        height: 10%;
+        margin: 5px;
+        margin-right: 5px;
+    }
+    .purple {
+        background-color: purple;
+        height: 10%;
+        margin: 5px;
+    }
+    .red {
+        background-color: red;
+        height: 50%;
+        margin: 5px;
+    }
+}
+
+@media screen and (min-width: 414px) and (max-width: 767px) {
+    .orange {
+        background-color: orange;
+        position: fixed;
+        height: 10%;
+        margin: 5px;
+        width: 39%;
+    }
+    .purple {
+        background-color: purple;
+        position: fixed;
+        height: 10%;
+        margin: 5px;
+        width: 58%;
+        left: 40%;
+    }
+    .red {
+        background-color: red;
+        position: relative;
+        height: 50%;
+        top: 11%;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .green {
+        background-color: green;
+        position: fixed;
+        height: 20%;
+        top: 62%;
+        width: 49%;
+        margin: 5px;
+        margin-top: 10px;
+    }
+    .blue {
+        background-color: blue;
+        position: fixed;
+        height: 20%;
+        top: 62%;
+        width: 48%;
+        left: 50%;
+        margin: 5px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .red {
+        background-color: red;
+        position: fixed;
+        height: 10%;
+        margin: 5px;
+        width: 39%;
+        top: 0%;
+    }
+    .orange {
+        background-color: orange;
+        position: fixed;
+        height: 10%;
+        margin: 5px;
+        width: 59%;
+        left: 40%;
+    }
+    .green {
+        background-color: green;
+        position: relative;
+        height: 50%;
+        top: 11%;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .brown {
+        background-color: brown;
+        position: fixed;
+        height: 15%;
+        top: 62%;
+        width: 32%;
+        margin: 5px;
+        margin-top: 10px;
+    }
+    .blue {
+        background-color: blue;
+        position: fixed;
+        height: 15%;
+        top: 62%;
+        width: 32%;
+        left: 33%;
+        margin: 5px;
+        margin-top: 10px;
+    }
+    .purple {
+        background-color: purple;
+        position: fixed;
+        height: 15%;
+        top: 62%;
+        width: 33%;
+        left: 66%;
+        margin: 5px;
+        margin-top: 10px;
+    }
+}
